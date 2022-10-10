@@ -1,0 +1,16 @@
+export const COLORS = {
+  scrollerGrey: "#dbdbdb",
+  lightGrey: "#e3e3e3",
+  darkerGrey: "#c8c8c8",
+  tmdbDarkBlue: "#032541",
+  tmdbLightBlue: "#01b4e4",
+  tmdbLighterGreen: "#c0fecf",
+  tmdbLightGreen: "#1ed5a9",
+  tmdbLogoGreen: "#90cea1",
+  tmdbLogoOrange: "#fdc170",
+  tmdbLogoRed: "#d93b63",
+  imageBorderRadius: "8px",
+  textColor: "032541",
+  black: "#000",
+  white: "#fff",
+};

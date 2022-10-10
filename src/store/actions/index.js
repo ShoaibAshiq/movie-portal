@@ -1,0 +1,1 @@
+export { getWhatsPopular, getFreeToWatch } from "./home.actions";
