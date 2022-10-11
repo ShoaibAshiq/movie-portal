@@ -41,7 +41,6 @@ function Search({ handleSearch }) {
         }}
       />
       <Button
-        disabled={search.trim() == ""}
         sx={{
           ":hover": {
             color: COLORS.black,
@@ -55,7 +54,6 @@ function Search({ handleSearch }) {
           color: COLORS.white,
           background: `linear-gradient(to right,  ${COLORS.tmdbLightGreen} ,  ${COLORS.tmdbLightBlue})`,
         }}
-        onClick={() => navigate(`/search`)}
       >
         <Typography sx={{ display: { xs: "none", sm: "block" } }}>
           Search
